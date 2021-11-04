@@ -27,7 +27,7 @@ call plug#end()
 
 "=== Plugin Options ==="
 "Color Schemes"
-:colorscheme happy_hacking
+:colorscheme molokai
 
 "coc.nvim"
 :set completeopt-=preview
