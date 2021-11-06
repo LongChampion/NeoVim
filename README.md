@@ -18,3 +18,9 @@
 - [fzf-vim](https://github.com/junegunn/fzf.vim)
 - [Vim-Clang-Format](https://github.com/rhysd/vim-clang-format)
 
+## Usage
+- **Make sure that you have installed all dependencies**
+- Use this command:
+```bash
+
+```
