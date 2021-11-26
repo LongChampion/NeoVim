@@ -21,6 +21,7 @@
 ## Usage
 - **Make sure that you have installed all dependencies**
 - Use this command:
-```bash
-
-```
+    ```bash
+    bash -c "$(curl -L https://raw.githubusercontent.com/LongChampion/NeoVim/master/install.sh)"
+    ```
+- Install additional `coc.nvim`'s [extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
