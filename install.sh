@@ -6,7 +6,7 @@ if [[ $EUID -eq 0 ]]; then
 fi
 
 YAY="yay -S --noconfirm --needed"
-DEPENDANCY="neovim git nodejs npm clang fzf ttf-font-awesome awesome-terminal-fonts nerd-fonts-fira-code"
+DEPENDANCY="neovim git nodejs npm clang fzf ttf-font-awesome awesome-terminal-fonts"
 
 $YAY $DEPENDANCY
 
@@ -17,7 +17,7 @@ if [[ ! -d $HOME/.config/nvim ]]; then
     
     # Complete coc.nvim setup
     sudo npm install -g yarn
-    cd $HOME/.config/nvim/plugged/coc.nvim
+    cd $HOME/.local/share/nvim/plugged/coc.nvim
     yarn install
 else
     echo "$HOME/.config/nvim already exists!"
